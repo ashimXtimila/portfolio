@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashim Timila | Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: #0f172a;
+            color: #f1f5f9;
+            font-family: "Poppins", sans-serif;
+        }
+
+        header {
+            background: rgba(15, 23, 42, 0.95);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            color: #38bdf8;
+            font-weight: 700;
+        }
+
+        nav a {
+            margin-left: 1.2rem;
+            color: #f1f5f9;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: url("ChatGPT Image Jul 31, 2025, 06_34_12 AM.png") no-repeat center center/cover;
+            position: relative;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.8);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            color: #38bdf8;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .skill-card {
+            background: #1e293b;
+            padding: 1.5rem;
+            border-radius: 10px;
+            transition: transform 0.3s ease, background 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-8px);
+            background: #38bdf8;
+            color: #0f172a;
+        }
+
+        footer {
+            background: #1e293b;
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        footer a {
+            margin: 0 10px;
+            font-size: 1.5rem;
+            color: #38bdf8;
+            transition: 0.3s;
+        }
+
+        footer a:hover {
+            color: #f1f5f9;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="d-flex justify-content-between align-items-center px-4 py-2">
+        <h1>Ashim Timila</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Full Stack Web & Flutter Developer</h2>
+            <p>I design and build responsive, dynamic, and scalable applications.</p>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container text-center my-5">
+        <h2 class="text-info mb-3">About Me</h2>
+        <p>
+            Hi, I’m <b>Ashim Timila</b>. A passionate Full Stack Web Developer and Flutter Developer.
+            I specialize in building high-performance web and mobile applications with modern technologies.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container text-center my-5">
+        <h2 class="text-info mb-4">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    width="40"><br>HTML</div>
+            <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                    width="40"><br>CSS</div>
+            <div class="skill-card"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    width="40"><br>JavaScript</div>
+            <div class="skill-card"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    width="40"><br>React</div>
+            <div class="skill-card"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                    width="40"><br>MySQL</div>
+            <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
+                    width="40"><br>Dart</div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container text-center my-5">
+        <h2 class="text-info mb-3">Contact Me</h2>
+        <p>Let’s connect and collaborate!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="mb-2">
+            <a href="https://www.linkedin.com/in/ashim-timila-506508341/" target="_blank"><i
+                    class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/ashimXtimila" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="mailto:callmeashimtimila@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+        <p>© 2025 Ashim Timila | All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
